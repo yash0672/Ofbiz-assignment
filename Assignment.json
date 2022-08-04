@@ -1,0 +1,76 @@
+
+   "party"
+   	{
+   	"partyId":"101"
+	"firstName":"Yash",
+	"lastName":"Yadav",
+	"brithday":06-07-2000
+	"gender":"M",
+	"occupation”:" Enterprise Java Developer Intern"
+	}
+	"roleType”:
+		{
+		“roleTypeId” : “Customer”
+		}	
+	“contactMech”	
+		{
+		“contactMechId” : “CM01”,
+		“contactMechTypeId” : “POSTAL_ADDRESS”
+		}
+
+	"postalAddress”{
+			“contactMechId” : “CM01”,
+			“toName”: “Rocky”,
+			address1”: “Indore”,
+			“city”: “Indore”,
+			“postalCode” : “452010”,
+			“countryGeoId” : “IND”
+			“stateProvinceGeoId” : “MP”
+		},
+		
+	“partyContactMech” :
+			{
+			“partyId” : “101”,
+			“contactMechId” : “CM01”
+			“fromDate” : “2022-08-01 00:00:00.000”
+			}
+	“ContactMech” :
+			{
+			“contactMechId” : “GL1”,
+			“contactMechTypeId”:“GERNRAL_LOCATION”,
+			}
+	“PartyContactMech” :
+			{
+			“partyId” : “101”,
+			“contactMechId” : “GL1”
+			“fromDate” : “2022-08-01 00:00:00.000” 
+			}
+	“ContactMech” :
+			{
+			“contactMechId” : “GL1”,
+			“contactMechTypeId”:“GERNRAL_LOCATION”,
+			}
+	“PartyContactMech” :
+			{
+			“partyId” : “101”,
+			“contactMechId” : “GL1”
+			“fromDate” : “2022-08-01 00:00:00.000” 
+			}
+}
+	"GERNRAL_LOCATION" :
+		{
+			"name":"Hotwax Systems"
+			"houseNo":"80",
+			"streetAddress":"Scheme Number 78",
+			"area":"Part II, Vijay Nagar",
+			"city":"Indore",
+			"state":"Madhya Pradesh",
+			"country":"India",
+			"postalCode":"452010",
+			"addressType":"Office"
+		}
+
+}
+
+
+
